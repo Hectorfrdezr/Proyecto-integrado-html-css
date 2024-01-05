@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@700 & display=swap');
+
+:root{
+    /* backgraund */
+    --backgraund: #000000;
+    --Primary:#fafafa;
+    /* text color */
+    --white:#d0cfcf;
+    --segunday:#1e1e4d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans',
+        sans-serif;
+    text-decoration: none;
+    list-style: none;
+    }
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height: 85px;
+    /* padding: 0px 30p; */
+    position: fixed;
+    background-color: var(--backgraund);
+
+}
+.logo{
+    height: 100%;
+    padding:15px; 
+}
+.navbar,
+.navbar-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+    }
+.navbar a{
+    color: var(--white);
+    font-size: 15px;
+}
+
+
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid var(--Primary) 1px;
+    padding: 4px;
+    
+
+}
+.usuario img{
+    height: 16px;
+    padding: 0px 15;
+}
+ main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--backgraund);
+
+ }
+ .hero{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 90px;
+
+
+ }
+ .hero-card{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+    width: 40%;
+
+ }
+ .hero-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .hero-info h1{
+    color: var(--Primary);
+    font-size: 70px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: px;
+    max-width: 600px;
+ }
+ .hero-info p{
+    color: var(--white);
+    font-size: 30px;
+    text-align: center;
+    max-width: 500px;
+    margin-top: 30px;
+    font-weight: 300;
+ }
+    
