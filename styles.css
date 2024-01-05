@@ -19,7 +19,7 @@
         sans-serif;
     text-decoration: none;
     list-style: none;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     }
 
 header{
@@ -45,7 +45,7 @@ header{
     justify-content:flex-start;
     align-items: center;
     gap:40px;
-    padding: 15px;
+    padding: 45px;
     
     }
 .navbar a{
