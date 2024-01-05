@@ -19,6 +19,7 @@
         sans-serif;
     text-decoration: none;
     list-style: none;
+    border: solid 1px red;
     }
 
 header{
@@ -33,17 +34,19 @@ header{
 
 }
 .logo{
-    height: 130px;
+    height: 80px;
     padding:15px;
-    padding-left: 50px; 
+    /* padding-left: 50px;  */
 }
 .navbar,
 .navbar-list{
     display: flex;
+    width:100% ;
     justify-content:flex-start;
     align-items: center;
     gap:40px;
-    margin-left: 30px;
+    padding: 15px;
+    
     }
 .navbar a{
     color: var(--text-nav);
@@ -57,14 +60,13 @@ header{
     align-items: center;
     justify-content: center;
     border: solid var(--Primary) 1px;
-    padding: 4px;
-    margin-left: 600px;
-    
-
+    padding: 4px; 
+    border-radius: 3px; 
 }
 .usuario img{
-    height: 16px;
-    padding: 0px 15;
+    height: 18px;
+    padding: 0px 8px;
+
 }
  main{
     display: flex;
