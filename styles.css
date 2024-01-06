@@ -19,7 +19,7 @@
         sans-serif;
     text-decoration: none;
     list-style: none;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     }
 
 header{
@@ -72,7 +72,8 @@ header{
     justify-content:center;
     align-items: center;
     width: 100%;
-    /* background-color: var(--backgraund); */
+    background-color: var(--backgraund);
+    flex-direction: column;
 
  }
  .hero{
@@ -111,4 +112,23 @@ header{
     margin-top: 30px;
     font-weight: 400;
  }
-    
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1e1e4d;
+}
+.about-card{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 50px;
+    border: 1px solid;
+}
+
+.about-card img{
+    width: 20px;
+}    
