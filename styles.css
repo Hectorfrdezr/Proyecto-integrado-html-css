@@ -19,32 +19,34 @@
         sans-serif;
     text-decoration: none;
     list-style: none;
-    /* border: solid 1px red; */
+    border: solid 1px red;
     }
+   
+    /* header */
 
 header{
     width: 100%;
     display: flex;
     justify-content:start;
     align-items: center;
-    height: 85px;
     position: fixed;
     background-color: var(--backgraund);
+    padding: 0 30px;
 
 }
 .logo{
     height: 80px;
-    padding:15px;
 
 }
 .navbar,
 .navbar-list{
     display: flex;
-    width:100% ;
+    width:98% ;
     justify-content:flex-start;
     align-items: center;
     gap:40px;
-    padding: 55px;
+    padding: 0 60px;
+    height: 65px;
     
     }
 .navbar a{
@@ -67,20 +69,22 @@ header{
     padding: 0px 8px;
 }
 
+/* main */
  main{
     display: flex;
     justify-content:center;
     align-items: center;
     width: 100%;
     background-color: var(--backgraund);
-    flex-direction: column;
+    /* flex-direction: column; */
 
  }
- .hero{
+ #hero{
     display: flex;
     align-items: center;
     justify-content:center;
-    margin-top: 90px;
+    margin-top: 65px;
+    width: 100%;
 
 
  }
@@ -112,21 +116,24 @@ header{
     margin-top: 30px;
     font-weight: 400;
  }
-.beneficios{
+
+ /* about */
+#beneficios{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 70px 0;
     background-color: #1e1e4d;
 }
-.about-card{
+.about-card-conteiner{
     display: flex;
     justify-self: center;
     align-items: center;
-    flex-direction: column;
     width: 60%;
     margin-top: 50px;
-    border: 1px solid;
+    flex-direction: column;
 }
 
 .about-card img{
