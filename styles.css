@@ -261,6 +261,34 @@ font-size: 16px;
     color: var(--text-nav);
     text-align: left;
 }
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 65px;
+}
+.footer-info{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    height:65px;
+    width: 90%;
+}
+.footer-info p{
+    color: var(--Primary);
+}
+.footer-icon img{
+    width: 40px;
+}
 
 
 
