@@ -1,80 +1,96 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@300;700 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Inter',
-        sans-serif;
-  
-}
+    sans-serif;
+    }
+
 /* login */
-body{
+section{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(19, 139, 51)
+    width: 100%;
+    background: rgb(19, 139, 51);
 }
-.wrapper{
-    width: 460px;
+
+.form-login{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 450px;
     background: rgb(159, 11, 36);
-    color: #fff;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 .wrapper h1{
     font-size: 36px;
     text-align: center;
     font-weight: 400;
 }
-.wrapper .input-box{
-    width:80%;
+.input-box{
     position: relative;
-    height: 50px;
-    margin: 30px 50px;
-    
+    margin: 30px 0;
+    width:310px;
+    border-bottom: 2px solid #fff;    
+} 
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 20px;
+    pointer-events: none;
+    transition: .5s;
 }
-.input-box input {
+input:focus ~ label,
+input:focus ~ :valid{
+    top: -5px;
+}
+.input-box input{
     width: 100%;
-    height: 100%;
+    height: 50px;
     background: transparent;
     border: none;
-    outline: none;
-    border: 2px solid rgba(255,255, 255, .2);
-    border-radius: 40px;
-    padding: 20px 45px 20px 20px;
-    font-size: 16px;
-    color: #fff;
-}
-.input-box input::placeholder{
+    outline: noe; 
+    font-size: 20px;
+    padding: 0 35px 0 5px;
     color: #fff;
 }
 .input-box i{
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 8px;
+    color: #fff;
     font-size: 20px;
+    top: 20px;
 }
-.wrapper .remember-forgot{
+.remember-forget{
     display: flex;
     justify-content: center;
     font-size: 14.5px;
     margin: -15px 0 15px;
     gap: 40px;
 }
-.remember-forgot label input{
+.remember-forget label input{
     accent-color:#fff ;
     margin-right: 3px;
 }
-.remember-forgot a{
+.remember-forget a{
     color: #fff;
     text-decoration: none;
 }
 .remember-forgot a:hover {
     text-decoration: underline;
 }
-.wrapper .btn{
-    width: 80%;
+.btn{
+    width: 100%;
     height: 45px;
     background-color: #fff;
     border: none;
@@ -83,16 +99,13 @@ body{
     box-shadow: 0 0 10px rgba(0 ,0 ,0 , .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
     font-weight: 600;
-    align-items: center;
-    justify-content: center;
-    margin-left: 45px;
+  
 }
-.wrapper .register-link{
+.register-link{
     font-size: 14.5px;
     text-align: center;
-    margin: 20px 0 15px;
+    margin: 20px 0 10px;
 }
 .register-link p a{
     color: #fff;
@@ -101,7 +114,7 @@ body{
 }
 .register-link p a:hover{
     text-decoration: underline;
-}
+} */
 
 
 
