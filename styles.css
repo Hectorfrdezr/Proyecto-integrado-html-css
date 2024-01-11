@@ -265,11 +265,13 @@ font-size: 21px;
     color: var(--text-nav);
     text-align: left;
 }
+/* footer */
 #footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
+    background: var(--backgraund);    
 }
 .footer-conteiner{
     display: flex;

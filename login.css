@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@300;700 & display=swap');
 
+:root {
+    /* backgraund */
+    --backgraund: #000000;
+    --footer-backg: #00030c;
+
+    /* text color */
+    --Primary: #F6F6F3;
+    --white: #A6A59F;
+    --segunday: #1e1e4d;
+    --text-nav: #d9d3cf;
+}
 *{
     margin: 0;
     padding: 0;
@@ -158,4 +169,38 @@ input:valid ~ label{
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+/* footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: var(--backgraund);
+}
+
+.footer-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 65px;
+}
+
+.footer-info {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    height: 65px;
+    width: 90%;
+}
+
+.footer-info p {
+    color: var(--Primary);
+}
+
+.footer-icon img {
+    width: 30px
 }
