@@ -11,173 +11,149 @@
     --segunday: #1e1e4d;
     --text-nav: #d9d3cf;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Inter',
-    sans-serif;
-    }
+    font-family: 'Inter',
+        sans-serif;
+}
+
 /* header */
-#navlogin{
+#navlogin {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 65px;
-    background: linear-gradient(#1c1c1c,#686868); 
+    background: linear-gradient(#1c1c1c, #686868);
     padding: 0 25px;
-    
+
 }
-.nav-info{
+
+.nav-info {
     display: flex;
     width: 80%;
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.nav-info img{
+
+.nav-info img {
     width: 6%;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
     width: 5%;
-   
-}
-.nav-info a{
-    color: #fff;
-    font-size: 12px;
-    text-align: center; 
-    outline: none;
-    text-decoration: none;  
-}
-.nav-link i{
-    font-size: 38px;
-}
-.nav-info a:hover{
-    text-decoration: underline;
+
 }
 
-/* login */
-#login{
+.nav-info a {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+
+.nav-link i {
+    font-size: 38px;
+}
+
+.nav-info a:hover {
+    text-decoration: underline;
+}
+/* registro */
+#registro {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    background: url(./img/img-login.jpg)no-repeat;
-    background-size:cover;
-    background-position:center;
-    
+    background: #1c1c1c;
+    background-size: cover;
+    background-position: center;
 }
 
-.form-login{
-    position: relative;
-    display: flex;
-    width: 360px;
-    height: 420px;
-    background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(85px);
+.registro-form {
+    width: 750px;
+    background: rgba(255, 255, 255, .10);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
     color: #fff;
-    margin: 68px;
+    padding: 40px 35px 35px;
+    margin: 55px;
 }
-.wrapper h1{
-    font-size: 36px;
+.registro-form h1{
+    font-size: 35px;
     text-align: center;
-    font-weight: 400;
+    margin-bottom: 15tpx;
 }
 .input-box{
-    position: relative;
-    margin: 30px 0;
-    width:310px;
-    border-bottom: 2px solid #fff;    
-} 
-.input-box label {
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    color: #ffffff;
-    font-size: 20px;
-    pointer-events: none;
-    transition: .5s;
-}
-input:focus ~ label,
-input:valid ~ label{
-    top: -5px;
-}
-.input-box input{
-    width: 100%;
-    height: 50px;
-    background: transparent;
-    border: none;
-    outline: none; 
-    font-size: 20px;
-    padding: 0 35px 0 5px;
-    color: #fff;
-}
-.input-box i{
-    position: absolute;
-    right: 8px;
-    color: #fff;
-    font-size: 20px;
-    top: 20px;
-}
-.remember-forget{
     display: flex;
     justify-content: center;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-    gap: 40px;
+    flex-wrap: wrap;
 }
-.remember-forget label input{
-    accent-color:#fff ;
-    margin-right: 3px;
+.input-campo{
+    position: relative;
+    width: 48%;
+    height: 50px;
+    margin: 13px 0;
 }
-.remember-forget a{
+.input-campo input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2.5px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
     color: #fff;
-    text-decoration: none;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
 }
-.remember-forget a:hover {
-    text-decoration: underline;
+.input-campo input::placeholder{
+    color: var(--text-nav);
 }
-.btn-login{
+.input-campo i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.registro-form label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+}
+.registro-form label input{
+    accent-color: rgb(116, 118, 119);
+    margin-right: 5px;
+}
+.registro-form .btn{
     width: 100%;
     height: 45px;
-    background-color: #fff;
+    background: rgb(116, 118, 119);
     border: none;
     outline: none;
-    border-radius:40px;
-    box-shadow: 0 0 10px rgba(0 ,0 ,0 , .1);
-    cursor: pointer;
+    border-radius: 6px;
+    box-shadow:0 0 10px rgba(231, 228, 228, 0.1);
     font-size: 16px;
     font-weight: 600;
-  
+    color: var(--text-nav);
 }
-.register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 10px;
-}
-.register-link p a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
-.register-link p a:hover{
-    text-decoration: underline;
-}
+
 /* footer */
-#footer {
+#footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,5 +195,9 @@ input:valid ~ label{
     color: var(--text-nav);
     font-size: 38px;
 }
-
-
+@media (max-width:576px){
+    .input-box .input-campo{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
