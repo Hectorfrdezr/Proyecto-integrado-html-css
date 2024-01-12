@@ -17,8 +17,16 @@
     box-sizing: border-box;
     font-family:'Inter',
     sans-serif;
-    border: 1px solid red;
+   
     }
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(./img/img-login.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* header */
 header{
     display: flex;
@@ -70,23 +78,13 @@ header{
     text-decoration: underline;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100%; */
-    width: 100%;
-    background: url(./img/img-login.jpg)no-repeat;
-    background-size:cover;
-    background-position:center;
-    flex-direction: column;
-}
 /* login */
 #login{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    height: 80vh; 
 } 
 
 .form-login{
@@ -101,7 +99,6 @@ body{
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin: 68px;
 }
 .wrapper h1{
     font-size: 36px;
@@ -203,6 +200,7 @@ footer{
     align-items: center;
     width: 100%;
     background: var(--backgraund);
+    margin-top: 40px;
 }
 
 .footer-conteiner {
