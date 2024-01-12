@@ -70,7 +70,6 @@ header{
     align-items: center;
     width: 25%;
     justify-content: center;
-    
 }
 .usuario a{
    font-size: 16px;
@@ -83,7 +82,7 @@ header{
 .usuario:last-child{
     border: 2px solid rgb(70, 69, 69);
     border-radius: 20px;
-
+   
 }
 main{
     background-color: #000000;
