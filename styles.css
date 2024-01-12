@@ -298,8 +298,17 @@ font-size: 21px;
 .footer-info p{
     color: var(--Primary);
 }
-.footer-icon img{
-    width:30px
+.footer-icon{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.footer-icon i{
+    color: var(--text-nav);
+    font-size: 38px;
+ 
 }
 
 
