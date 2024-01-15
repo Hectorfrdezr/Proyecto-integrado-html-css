@@ -19,7 +19,7 @@
         sans-serif;
     text-decoration: none;
     list-style: none;
-    /* border: solid 1px red; */
+    border: solid 1px red;
     }
 body{
     display: flex;
@@ -41,6 +41,7 @@ header{
 #menu-toggle,
 .menu-label{
     display: none;
+    color: #F6F6F3;
 }
 
 .logo{
@@ -62,9 +63,6 @@ header{
     color: var(--text-nav);
     font-size: 18px;
 }
-
-
-
 .usuario{
     display: flex;
     align-items: center;
@@ -87,16 +85,12 @@ header{
 main{
     background-color: #000000;
 }
-
  #hero{
     display: flex;
     align-items: center;
     justify-content:center;
     width: 100%;
     padding: 0 70px;
-    
-
-
  }
  .hero-card{
     display: flex;
@@ -332,8 +326,59 @@ footer{
     justify-content: center;
     align-items: center;
 }
+/* mediaqueries */
+@media (max-width:992px){
 
+body{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.navbar-list
+{
+    position: absolute;
+    top: 65px;
+    left: 70%;
+    right: 5%;
+    width: 25%;
+    flex-direction: column;
+    background: red;
+    border: 2px solid;
+    border-top: 0px;
+    border-radius:0  8px;
+    height: 250px;
+    gap: 25px;
+    padding: 45px 30px;
+    align-items: center;
+    z-index: 2;
+    display: none;
+}
+.navbar-list a{
+    font-size: 24px
+}
+.menu-label{
+    display: flex;
+    order: 2;
+    color: #A6A59F;
+    font-size: 65px;
+}
+#menu-toggle:checked + .navbar-list{
+    display: flex;
+}
+#hero{
+  margin-top:85px;
+  display: flex;
+}
+.about-card-conteiner{
+    display: flex;
+    flex-direction: column;
+
+}
+.info-conteiner{
+    display: flex;
+    flex-direction: column;
+}
+}
 
 
 

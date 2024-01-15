@@ -25,6 +25,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(#141313,#595555);
 }
 /* header */
 header{
@@ -85,7 +86,8 @@ header{
 /* registro */
 main{
     display: flex;
-    width: 100%;
+    /* width: 80%; */
+    height: 88vh;
     align-items: center;
     justify-content: center;
 }
@@ -93,7 +95,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 84.2vh;
+    /* height: 84vh; */
     width: 100%;
     background: #1c1c1c;
     background-size: cover;

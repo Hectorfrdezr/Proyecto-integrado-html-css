@@ -27,6 +27,7 @@ body{
     background-size: cover;
     background-position: center;
 }
+
 /* header */
 header{
     display: flex;
@@ -61,7 +62,7 @@ header{
     align-items: center;
     justify-content: center;
     /* border: 1px solid red; */
-    width: 5%;
+    width: 2%;
    
 }
 .nav-info a{
@@ -84,7 +85,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 74.2vh; 
+    height:81vh;
+    
 } 
 
 .form-login{
@@ -99,6 +101,7 @@ header{
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-top:45px ; 
 }
 .wrapper h1{
     font-size: 36px;
