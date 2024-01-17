@@ -17,6 +17,7 @@
     box-sizing: border-box;
     font-family:'Inter',
     sans-serif;
+    /* border: 1px solid red; */
    
     }
 body{
@@ -240,5 +241,34 @@ footer{
     color: var(--text-nav);
     font-size: 38px;
 }
-
-
+/* mediaqueries */
+@media(max-width:992px){
+.nav-info img{
+    width: 14%;
+}
+.footer-info{
+    width: 100%;
+}
+.footer-info p{
+    font-size: 12px;
+}
+.footer-icon i{
+    font-size: 28px;
+} 
+}
+@media(max-width:526px){
+    .nav-info img{
+        width: 22%;
+    }
+    .footer-info p{
+        font-size: 10px;
+    }
+   .footer-info{
+    width: 100%;
+    gap: 6px;
+    padding: 0;
+   }
+   .footer-icon i{
+    font-size: 28px;
+   } 
+}
