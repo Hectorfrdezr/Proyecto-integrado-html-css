@@ -95,7 +95,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 84vh; */
     width: 100%;
     background: #1c1c1c;
     background-size: cover;
@@ -103,7 +102,7 @@ main{
 }
 
 .registro-form {
-    width: 650px;
+    width: 100%;
     background: rgba(255, 255, 255, .10);
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
