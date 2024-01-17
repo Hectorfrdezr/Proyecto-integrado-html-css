@@ -255,11 +255,11 @@ footer{
 .footer-icon i{
     font-size: 28px;
 } 
-.form-login{
-    margin-top: 75px;
+#login{
+    display: flex;
+    width: 100%;
+    padding: 65px;
 }
-#footer{
-    margin-top:75px ;
 }
 @media(max-width:526px){
     .nav-info img{
