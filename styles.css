@@ -40,9 +40,25 @@ header{
 
 }
 #menu-toggle,
+#login-toggle,
 .menu-label{
     display: none;
     color: #F6F6F3;
+}
+.login{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login img{
+    height: 40px;
+    padding: 6px;
+    border: 2px solid var(--white);
+    border-radius: 50px;
 }
 
 .logo{
@@ -64,25 +80,27 @@ header{
     color: var(--text-nav);
     font-size: 18px;
 }
-.usuario{
+.usuario-list{
     display: flex;
-    align-items: center;
-    width: 25%;
+    gap: 45px;
+    width: 100%;
+    color: var(--text-nav);
     justify-content: center;
+    align-items: center;
 }
-.usuario a{
-   font-size: 16px;
-   padding: 12px;
+.usuario-list a{
+    font-size: 16px;
 }
-.usuario i{
+.usuario-list i{
     font-size: 20px;
-    margin-right: 5px;
+margin-right: 5px;
 }
-.usuario:last-child{
-    border: 2px solid rgb(70, 69, 69);
-    border-radius: 20px;
-   
+.usuario-list :nth-child(2){
+    border: 1px solid var(--white);
+    padding: 16px;
+    border-radius: 40px;
 }
+
 main{
     background-color: #000000;
 }
@@ -325,6 +343,29 @@ footer{
 /* mediaqueries */
 @media (max-width:992px){
 
+.usuario{
+    position: absolute;
+        top: 65px;
+        left: 70%;
+        right: 5%;
+        width: 25%;
+        flex-direction: column;
+        background: rgb(238, 174, 174);
+        border: 2px solid;
+        border-top: 0px;
+        border-radius: 0 8px;
+        height: 250px;
+        gap: 25px;
+        padding: 45px 30px;
+        align-items: center;
+        z-index: 2;
+        /* display: none; */
+}
+.usuario a{
+    font-size: 12px;
+    border: none;
+
+}
 .navbar-list
 {
     position: absolute;
@@ -333,7 +374,7 @@ footer{
     right: 5%;
     width: 25%;
     flex-direction: column;
-    background: red;
+    background: rgb(206, 138, 138);
     border: 2px solid;
     border-top: 0px;
     border-radius:0  8px;
