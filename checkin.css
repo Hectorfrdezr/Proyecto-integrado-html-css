@@ -222,14 +222,22 @@ footer{
     font-size: 38px;
 }
 @media (max-width:576px){
-
+    #registro{
+        display: flex;
+        width: 100%;
+    }
     .registro-form{
         width: 80%;
+        height: 580px;
+        justify-content: center;
+        align-items: center;
+
+
     }
 
     .input-box .input-campo{
         width: 100%;
-        margin: 5px;
+        margin: 2px;
     }
     .footer-info{
         width: 100%;
@@ -245,5 +253,8 @@ footer{
     }
     .nav-info img{
         width: 22%;
+    }
+    .registro-form label{
+        margin: 5px 0 2px;
     }
 }
