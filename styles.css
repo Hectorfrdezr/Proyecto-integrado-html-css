@@ -285,7 +285,7 @@ main{
 }
 .info-card p{
 color: var(--text-nav);
-text-align: left;
+text-align: center;
 max-width: 180px;
 font-size: 21px;
 }
@@ -491,6 +491,22 @@ header{
 .footer-info p{
     font-size: 14px;
 }
+}
+@media(max-width:526px){
+.about-card-conteiner{
+    display: flex;
+    flex-direction: column;
+}
+.about-card{
+    width: 320px;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+     
 }
 
 
