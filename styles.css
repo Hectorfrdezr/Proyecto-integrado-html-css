@@ -495,8 +495,7 @@ header{
 @media(max-width:526px){
 .navbar-list{
     width:36%;
-    left:65%;
-    right: 5%;
+    left:63%;
     align-items: center;
     justify-content: center;
     gap: 45px;
@@ -504,7 +503,7 @@ header{
     background:linear-gradient(#0f1010e9,#191918,#000000e3);
 }
 .navbar-list a{
-    font-size: 25px;
+    font-size: 22px;
 }
 .usuario-list{
     width: 100%;
