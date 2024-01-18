@@ -81,25 +81,10 @@ header{
     justify-content: center;
     align-items: center;
 }
-.usuario span{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
-}
-.usuario-list a{
-    font-size: 16px;
-}
-.usuario-list a:hover{
-    text-decoration: underline;
-    
-} 
-.usuario-list i{
-    font-size: 20px;
-}
 .btn-user{
     display: flex;
     padding: 10px;
+    font-size: 18px;
     border-radius: 8px;
     background-color: transparent;
     color: var(--text-nav);
