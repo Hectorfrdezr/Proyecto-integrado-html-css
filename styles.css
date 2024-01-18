@@ -90,9 +90,12 @@ header{
 .usuario-list a{
     font-size: 16px;
 }
+.usuario-list a:hover{
+    text-decoration: underline;
+    
+} 
 .usuario-list i{
     font-size: 20px;
-margin-right: 5px;
 }
 .usuario-list :nth-child(2){
     border: 1px solid var(--white);
