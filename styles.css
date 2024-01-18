@@ -34,7 +34,7 @@ header{
     justify-content:start;
     align-items: center;
     position: fixed;
-    background-color: var(--backgraund);
+    background-color:#151515;
     padding: 0 30px;
     height: 65px;
 
