@@ -30,3 +30,24 @@ html{
     color: black;
     transition: all 0.2s ease-in;
 }
+/* animaciones */
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}   
+}
+@keyframes slide-up {
+    from{transform: translateY(100px);}
+    to{transform: translateY(0);}
+}
+@keyframes slide-rigth{
+    from{transform: translateX(100px);}
+    to{transform: translateX(0);}
+}
+.hero-info h1{
+animation: fade 1s ease-in,slide-up 1.3s ease-out;
+}
+.hero-info p{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-up 0.9s ease-out;
+    animation-delay: 0.2s;
+}
