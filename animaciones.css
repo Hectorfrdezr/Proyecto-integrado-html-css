@@ -22,3 +22,11 @@ html{
     transform-origin: bottom left;
     transform: scaleX(1);
 }
+.btn-user{
+    transition: all 0.2s ease-out;
+}
+.btn-user:hover{
+    background-color: var(--text-nav);
+    color: black;
+    transition: all 0.2s ease-in;
+}
