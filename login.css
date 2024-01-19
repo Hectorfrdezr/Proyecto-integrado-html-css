@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: column;
     background: url(./img/img-login.jpg)no-repeat;
-    background-size: cover;
+    background-size:cover ;
     background-position: center;
 }
 
@@ -35,13 +35,13 @@ header{
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: static;
 }
 #navlogin{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 65px;
     background: linear-gradient(#1c1c1c,#686868); 
     padding: 0 25px;
     
@@ -81,12 +81,19 @@ header{
 }
 
 /* login */
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    
+}
 #login{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
-    height:85vh;
     
 } 
 
@@ -102,7 +109,7 @@ header{
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin-top:35px ; 
+    
 }
 .wrapper h1{
     font-size: 36px;
@@ -196,7 +203,7 @@ footer{
     width: 100%;
     align-items: center;
     justify-content: center;
-    /* margin-top: 36px; */
+ 
 }
 #footer {
     display: flex;
@@ -204,7 +211,7 @@ footer{
     align-items: center;
     width: 100%;
     background: var(--backgraund);
-    margin-top: 40px;
+    
 }
 
 .footer-conteiner {
