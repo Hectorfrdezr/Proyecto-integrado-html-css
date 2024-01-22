@@ -43,6 +43,10 @@ html{
     from{transform: translateX(100px);}
     to{transform: translateX(0);}
 }
+@keyframes slide-left{
+    from{transform: translateX(-100px);}
+    to{transform: translateX(0);}
+}
 .hero-info h1{
 animation: fade 1s ease-in,slide-up 1.3s ease-out;
 }
@@ -50,4 +54,29 @@ animation: fade 1s ease-in,slide-up 1.3s ease-out;
     opacity: 0;
     animation: fade 0.8s ease-in forwards,slide-up 0.9s ease-out;
     animation-delay: 0.2s;
+}
+.hero-card{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-rigth 0.9s ease-out;
+    animation-delay: 0.4s;
+}
+#beneficios h2{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-up 0.9s ease-out;
+    /* animation-delay: 0.2s; */
+}
+.about-card{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-up 0.9s ease-out;
+    animation-delay: 0.6s;
+}
+.about-card img{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-left 0.9s ease-out;
+    animation-delay: 0.8s;
+}
+.about-card h3{
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards,slide-rigth 0.9s ease-out;
+    animation-delay: 0.8s;   
 }

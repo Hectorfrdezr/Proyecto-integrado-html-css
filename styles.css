@@ -37,6 +37,7 @@ header{
     background-color:#151515;
     padding: 0 30px;
     height: 65px;
+    z-index: 2;
 
 }
 #menu-toggle,
@@ -103,8 +104,9 @@ main{
  .hero-card{
     display: flex;
     justify-content: center;
-    padding: 20px;
-    width: 53%;
+    padding: 8px;
+    width: 45%;
+    margin-top: 65px;
    
  }
  .hero-info{
