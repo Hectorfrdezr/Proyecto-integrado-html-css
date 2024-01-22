@@ -80,3 +80,10 @@ animation: fade 1s ease-in,slide-up 1.3s ease-out;
     animation: fade 0.8s ease-in forwards,slide-rigth 0.9s ease-out;
     animation-delay: 0.8s;   
 }
+.discover-card img{
+    transition: all 0.3s linear;
+}
+.discover-card img:hover{
+    transform: scale(1.45);
+    transition: all 0.03s linear;
+}
