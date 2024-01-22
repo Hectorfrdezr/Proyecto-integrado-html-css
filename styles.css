@@ -543,6 +543,9 @@ header{
     display: flex;
     flex-direction: column;
 }
+.hero-card{
+    margin-top: 5px;
+}
 .footer-icon i{
     font-size: 24px;
 }
