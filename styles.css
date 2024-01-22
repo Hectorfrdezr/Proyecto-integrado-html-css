@@ -543,6 +543,9 @@ header{
     display: flex;
     flex-direction: column;
 }
+.hero-info p{
+    margin-bottom: 5px;
+}
 .hero-card{
     margin-top: 5px;
 }
